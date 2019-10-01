@@ -218,6 +218,9 @@ h6,
 	font-weight: 600;
 	line-height: 1.4;
 }
+.subtitle_custom{
+	text-transform: none;
+}
 
 small,
 .small {
