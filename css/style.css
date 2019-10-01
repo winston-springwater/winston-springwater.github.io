@@ -220,6 +220,9 @@ h6,
 }
 .subtitle_custom{
 	text-transform: none;
+	color: #fff;
+    	font-weight: 600;
+    	line-height: 1.4;
 }
 
 small,
