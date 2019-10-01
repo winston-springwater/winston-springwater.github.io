@@ -2662,6 +2662,9 @@ h3 + img {
 * + .subtitle {
 	margin-top: 25px;
 }
+* + .subtitle_custom {
+	margin-top: 25px;
+}
 
 * + .service-box {
 	margin-top: 25px;
