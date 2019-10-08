@@ -2663,7 +2663,7 @@ h3 + img {
 	margin-top: 25px;
 }
 * + .subtitle_custom {
-	margin-top: 25px;
+	margin-top: 10px;
 }
 
 * + .service-box {
