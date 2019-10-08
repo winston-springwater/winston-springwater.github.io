@@ -2632,7 +2632,7 @@ p + .heading-2 {
 }
 
 p + p {
-	margin-top: 12px;
+	margin-top: 2px;
 }
 
 img + p {
