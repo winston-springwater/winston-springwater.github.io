@@ -96,6 +96,14 @@ html p a:hover {
 	text-decoration: none;
 }
 
+/* custom style */
+
+.form__block-email{
+	margin-left: 29px;
+}
+.form-call{
+	display: flex;
+}
 /*
 *
 * Typography
@@ -302,6 +310,7 @@ p [style*='max-width'] {
 		padding: 50px;
 		max-width: 970px;
 	}
+
 	.content-box-inner {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -312,6 +321,23 @@ p [style*='max-width'] {
 	.content-box .close-modal-content-box {
 		top: 4px;
 		right: 4px;
+	}
+}
+
+@media(max-width:1200px){
+	.form-call{
+		flex-direction: column;
+	}
+	.form__block-email{
+		margin-left: 0;
+	}
+	.col-12 textarea {
+		height: 80px;
+	}
+	.button-lg {
+		padding: 10px 50px;
+		font-size: 13px;
+		line-height: 1;
 	}
 }
 
@@ -982,7 +1008,6 @@ img {
 	display: inline-block;
 	font-weight: 400;
 	font-style: normal;
-	speak: none;
 	text-transform: none;
 }
 
@@ -1658,6 +1683,10 @@ textarea.form-input {
 	}
 }
 
+.form__input{
+	width: 100%;
+    padding-right: 55px;
+}
 .form-output {
 	position: absolute;
 	top: 100%;
@@ -2742,7 +2771,7 @@ p + .subtitle {
 }
 
 .row-14 > * {
-	margin-bottom: 14px;
+	padding-left: 7px;
 }
 
 .row-20 {
@@ -3056,8 +3085,14 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .gutters-14 [class*='col-'] {
+	display: flex;
+	flex-direction: column;
 	padding-left: 7px;
 	padding-right: 7px;
+	margin-top: 14px;
+}
+.col-12 textarea{
+	height: 110px;
 }
 
 /*
@@ -4476,7 +4511,6 @@ html:not(.lt-ie10) .not-animated {
 
 .lg-icon {
 	font-family: 'lg';
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
